@@ -10,3 +10,5 @@ function fToC(fahrenheit) {
   const fToCel = (fTemp - 32) * 5 / 9;
   return fToCel;
 }
+
+export {cToF, fToC};
