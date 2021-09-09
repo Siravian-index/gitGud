@@ -2,3 +2,5 @@
 const filterOddNumbers = (arr) => {
   return arr.filter((ele) => ele % 2 === 0);
 };
+
+export {filterOddNumbers}
