@@ -4,4 +4,4 @@ git restore <filename>
 
 // Discarding uncommitted local changes cannot be undone!
 
-# Restoring a Deleted Fi le
+# Restoring a Deleted File
