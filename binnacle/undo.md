@@ -1,3 +1,5 @@
+<!-- Local changes -->
+
 # 1 Discarding All Local Changes in a File
 
 git restore <filename>
@@ -13,3 +15,13 @@ git restore <filename>
 git restore -p <filename>
 
 # 4 Discarding All Local Changes
+
+git restore .
+
+Discarding uncommitted local changes cannot be undone!
+
+<!-- Committed changes -->
+
+# 5 Fixing the Last Commit
+
+git commit --amend -m "<descriptive-message>"
